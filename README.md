@@ -1,18 +1,17 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Implementar um pequeno sistema para gerenciar eventos, com as seguintes funcionalidades:
+* Cadastrar Pessoas
+* Cadastrar Eventos
+* Associar uma pessoa a um evento
+* Listar pessoas associadas a um evento (usar um JTextArea para exibir as pessoas)
 
-## Folder Structure
+A tela principal deverá ser um JFrame contendo um JTabbedPane com 4 abas que funcionará como um menu. Nele estarão "pendurados" JPanel para implemenar as janelas de cada opção
 
-The workspace contains two folders by default, where:
+Para realizar a gravação de dados em arquivo, será fornecida uma classe chamada BD contendo a funcionalidade de salvar e obter dados em arquivo de texto.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+As classes deverão ser organizadas em pacotes separados, de acordo com o padrão MVC
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Para que os "listeners" (controller) sejam implementados em separado das telas (view), cada "listener" deve prever como atributo um objeto que representa a tela associada a ele, para que o código que trata o evento de mouse (método mouseClicked() ) possa acessar os objetos gráficos (JTextField) para obter os valores digitados
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+obs: utilizando uma classe DB feita pelo prorpio orientador
