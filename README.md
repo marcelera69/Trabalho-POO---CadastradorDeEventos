@@ -1,5 +1,5 @@
 ## Getting Started
-
+Trabalho feito para a faculdade na matéria de orientação a objetos
 Implementar um pequeno sistema para gerenciar eventos, com as seguintes funcionalidades:
 * Cadastrar Pessoas
 * Cadastrar Eventos
